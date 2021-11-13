@@ -8,63 +8,75 @@
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
-    <header>
-        <h1>
-            <a href="/">Emily Dokken</a>
-        </h1>
+    <div class="main">
+        <header>
+            <div class="section-border">
+                <h1>
+                    <a href="/">Emily Dokken</a>
+                </h1>
+            </div>
 
-        <!--- Navigation -->
-        <nav>
-            <ul>
-                <li>
-                    <a href="#about">Work</a>
-                </li>
-                <li>
-                    <a href="work">About</a>
-                </li>
-                <li>
-                    <a href="contact">Contact</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+            <!--- Navigation -->
+            <div class="flex-nav section-border">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#about">Work</a>
+                        </li>
+                        <li>
+                            <a href="work">About</a>
+                        </li>
+                        <li>
+                            <a href="contact">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
 
-    <!--- About Section -->
-    <section id="about">
-        <h2>About</h2>
-        <img src="#" alt="">
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo molestias autem vero error molestiae aspernatur sed, consectetur accusantium. Distinctio temporibus unde repellat ex provident perspiciatis doloremque placeat deleniti. Quae, consequatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo molestias autem vero error molestiae aspernatur sed, consectetur accusantium. Distinctio temporibus unde repellat ex provident perspiciatis doloremque placeat deleniti. Quae, consequatur.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo molestias autem vero error molestiae aspernatur sed, consectetur accusantium. Distinctio temporibus unde repellat ex provident perspiciatis doloremque placeat deleniti. Quae, consequatur.
-        </p>
-    </section>
+        <div class="content">
+            <!--- About Section -->
+            <section id="about" class="section-border">
+                <h2>About</h2>
+                <img src="#" alt="">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo molestias autem vero error molestiae aspernatur sed, consectetur accusantium. Distinctio temporibus unde repellat ex provident perspiciatis doloremque placeat deleniti. Quae, consequatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo molestias autem vero error molestiae aspernatur sed, consectetur accusantium. Distinctio temporibus unde repellat ex provident perspiciatis doloremque placeat deleniti. Quae, consequatur.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo molestias autem vero error molestiae aspernatur sed, consectetur accusantium. Distinctio temporibus unde repellat ex provident perspiciatis doloremque placeat deleniti. Quae, consequatur.
+                </p>
+            </section>
+    
+            <!-- Work -->
+            <section id="work" class="section-border">
+                <div class="flex-row">
+                    <h2 class="section-title">Work</h2>
+                </div>
+                <div class="projects">
+                    <article class="project">
+                        <img src="assets/img/placeholderImg.png" alt="">
+                    </article>
+                    <article class="project">
+                        <img src="assets/img/placeholderImg.png" alt="">
+                    </article>
+                    <article class="project">
+                        <img src="assets/img/placeholderImg.png" alt="">
+                    </article>
+                </div>
+            </section>
+    
+            <!-- Contact -->
+            <section id="contact" class="section-border">
+                <h2>Contact</h2>
+    
+            </section>
+        </div>   
+    </div>
 
-    <!-- Work -->
-    <section id="work">
-        <div class="flex-row">
-            <h2 class="section-title">Work</h2>
-        </div>
-        <div class="projects">
-            <article class="project">
-                <img src="assets/img/placeholderImg.png" alt="">
-            </article>
-            <article class="project">
-                <img src="assets/img/placeholderImg.png" alt="">
-            </article>
-            <article class="project">
-                <img src="assets/img/placeholderImg.png" alt="">
-            </article>
-        </div>
-    </section>
-
-    <!-- Contact -->
-    <section id="contact">
-        <h2>Contact</h2>
-
-    </section>
+   
 
     <!-- Footer -->
     <footer>
-
+        <p>
+            &copy; Emily Dokken | 2021
+        </p>
     </footer>
 
 </body>
