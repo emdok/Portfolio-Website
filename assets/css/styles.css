@@ -1,3 +1,9 @@
+* {
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family:'Courier New', Courier, monospace; 
 }
@@ -6,22 +12,21 @@ body {
     display: flex;
 }
 
-header {
-    max-width: 20vw;
-    margin: 20px;
+.main h1 a {
+    text-decoration: none;
+    color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-header h1 {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+header, footer {
+    margin: 20px;
 }
 
 nav ul li {
     list-style-type: none;
     padding: 40px 0px 40px 0px;
-}
-
-ul {
-    padding: 0;
+    max-width: 60%;
+    margin: auto;
 }
 
 .content {
@@ -39,14 +44,17 @@ ul {
     display: flex;
     flex: 1;
     max-width: 100%;
-    aspect-ratio: 1 / 1;
+    aspect-ratio: 1/1;
     object-fit: cover;
     object-position: center;
+    padding: 20px;
+    border-radius: 25px;
 }
 
 .about p {
     display: flex;
     flex: 2;
+    padding: 20px;
 }
 
 .flex-row {
