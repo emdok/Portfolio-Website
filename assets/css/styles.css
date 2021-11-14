@@ -5,6 +5,14 @@
     text-decoration: none;
 }
 
+a {
+    color: black;
+}
+
+a:hover {
+    color: #39FF14;
+}
+
 body {
     font-family:'Courier New', Courier, monospace; 
 }
@@ -13,8 +21,8 @@ body {
     display: flex;
 }
 
-.main h1 a {
-    color: black;
+header {
+    height: 100vh;
 }
 
 header, footer {
@@ -31,6 +39,14 @@ nav ul li {
 .content {
     max-width: 80vw;
     margin: 20px;
+    height: 100vh;
+    overflow: scroll;
+    -ms-overflow-style: none;  /* hide scroll bar IE and Edge */
+    scrollbar-width: none; /* hide scroll bar firefox*/
+}
+
+.content::-webkit-scrollbar {
+    display: none;
 }
 
 .section-title {
@@ -89,6 +105,10 @@ nav ul li {
     border-radius: 25px;
 }
 
+.projects img:hover {
+    opacity: 0.5;
+}
+
 #first-project {
     flex: 2 2 5%;
 }
@@ -106,5 +126,6 @@ nav ul li {
 }
 
 footer {
+    padding-top: 40px;
     text-align: center;
 }
