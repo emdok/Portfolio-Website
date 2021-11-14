@@ -46,8 +46,14 @@ nav ul li {
     flex-direction: row-reverse;
 }
 
-.about-item {
+.about-img {
     flex: 1;
+    padding-left: 20px;
+}
+
+.about-p {
+    flex: 2;
+    padding-right: 20px;
 }
 
 .about img {
@@ -55,12 +61,7 @@ nav ul li {
     aspect-ratio: 1/1;
     object-fit: cover;
     object-position: center;
-    padding: 20px;
     border-radius: 25px;
-}
-
-.about p {
-    padding: 20px;
 }
 
 .flex-row {
