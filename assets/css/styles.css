@@ -5,8 +5,12 @@
     text-decoration: none;
 }
 
+:root {
+    --main-content-color: black;
+}
+
 a {
-    color: black;
+    color: var(--main-content-color);
 }
 
 a:hover {
@@ -17,9 +21,26 @@ body {
     font-family:'Courier New', Courier, monospace; 
 }
 
-.main {
+.flex-row {
     display: flex;
 }
+
+.section-title {
+    font-size: 3em;
+    margin: 0 0 40px 0;
+    padding-bottom: 20px;
+    border-bottom: 2px solid var(--main-content-color);
+    width: 30%;
+}
+
+.section-border {
+    border: 3px solid red;
+    margin: 20px 0 20px 0;
+    border-radius: 25px;
+    padding: 40px;
+}
+
+/* Header and Navigation */
 
 header {
     height: 100vh;
@@ -40,6 +61,8 @@ nav ul li:hover {
     opacity: 0.5;
 }
 
+/* About, Work, Contact Section */
+
 .content {
     max-width: 80vw;
     margin: 20px;
@@ -53,16 +76,9 @@ nav ul li:hover {
     display: none;
 }
 
-.section-title {
-    font-size: 3em;
-    margin: 0 0 40px 0;
-    padding-bottom: 20px;
-    border-bottom: 2px solid black;
-    width: 30%;
-}
+/* About */
 
 .about {
-    display: flex;
     flex-direction: row-reverse;
     gap: 40px;
 }
@@ -83,19 +99,9 @@ nav ul li:hover {
     border-radius: 25px;
 }
 
-.flex-row {
-    display: flex;
-}
-
-.section-border {
-    border: 3px solid red;
-    margin: 20px 0 20px 0;
-    border-radius: 25px;
-    padding: 40px;
-}
+/* Work */
 
 .projects {
-    display: flex;
     flex-wrap: wrap;
     gap: 80px;
 }
@@ -107,7 +113,7 @@ nav ul li:hover {
 .projects img {
     width: 100%;
     border-radius: 25px;
-    box-shadow: 3px 5px rgba(0,0,0,1);
+    box-shadow: 3px 5px var(--main-content-color);
 }
 
 .projects img:hover {
@@ -119,16 +125,19 @@ nav ul li:hover {
 }
 
 .project-column {
-    display: flex;
     flex-direction: column;
     flex: 1;
     gap: 10px
 }
 
+/* Contact */
+
 .contact {
     margin: 40px 0px 40px 0px;
     justify-content: space-around;
 }
+
+/* Footer */
 
 footer {
     padding: 40px 0px 40px 0px;
