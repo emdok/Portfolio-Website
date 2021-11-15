@@ -3,7 +3,7 @@
 ## Description
 This is a Portfolio Website used to showcase all of Emily Dokken's work throughout her time at the University of Oregon's Code Bootcamp. This site includes an about section, work section, and a contact section in order to get in touch with Emily for future employment opportunities.
 
-## Table of Contents (Optional)
+## Table of Contents
 
 If your README is long, add a table of contents to make it easy for users to find what they need.
 - [Installation](#installation)
