@@ -129,3 +129,66 @@ footer {
     padding-top: 40px;
     text-align: center;
 }
+
+/*Small Screens & Laptops */
+@media screen and (max-width: 1080px) {
+    .about {
+        flex-direction: column;
+    }
+
+    .projects {
+        flex-direction: column;
+        gap: 80px;
+    }
+    .project-column {
+        gap: 80px;
+    }
+    
+}
+
+/* Tablets */
+@media screen and (max-width: 1024px) {
+    .contact {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+}
+
+/* Mobile Devices */
+@media screen and (max-width: 780px) {
+
+    .main {
+        flex-flow: column wrap;
+        justify-content: space-around;
+    }
+
+    header {
+        height: unset;
+        margin-bottom: 0px;
+    } 
+
+    header h1 {
+        text-align: center;
+    }
+
+    br {
+        display: none;
+    }
+
+    .content {
+        overflow: revert;
+        margin-top: 0px;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    nav ul li img {
+        height: 100%;
+        width: 100%;
+    }
+}
