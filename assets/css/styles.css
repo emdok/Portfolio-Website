@@ -126,7 +126,7 @@ nav ul li {
 }
 
 footer {
-    padding-top: 40px;
+    padding: 40px 0px 40px 0px;
     text-align: center;
 }
 
@@ -179,16 +179,19 @@ footer {
     .content {
         overflow: revert;
         margin-top: 0px;
+        max-width: revert;
     }
 
     nav ul {
         display: flex;
         justify-content: space-around;
         align-items: center;
+        gap: 90px;
     }
 
-    nav ul li img {
-        height: 100%;
-        width: 100%;
+    nav ul li {
+        flex: 1; 
+        padding: 0px;
+
     }
 }
