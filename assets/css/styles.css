@@ -66,6 +66,10 @@ nav ul li:hover {
     opacity: 0.5;
 }
 
+nav p {
+    text-align: center;
+}
+
 /* About, Work, Contact Section */
 
 .content {
