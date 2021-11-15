@@ -27,7 +27,7 @@ body {
 }
 
 .section-title {
-    font-size: 3em;
+    font-size: 40px;
     margin: 0 0 40px 0;
     padding-bottom: 20px;
     border-bottom: 2px solid var(--main-content-color);
@@ -45,6 +45,10 @@ body {
 
 header {
     height: 100vh;
+}
+
+header h1 {
+    font-size: 40px;
 }
 
 header, footer {
@@ -108,7 +112,8 @@ nav ul li:hover {
 }
 
 .projects h2 {
-    margin-bottom: 10px;
+    font-size: calc(16px + (24 - 18) * ((100vw - 300px) / (1600 - 300)));
+    margin-bottom: 15px;
 }
 
 .projects img {
@@ -145,6 +150,7 @@ footer {
     text-align: center;
 }
 
+
 /*Small Screens & Laptops */
 @media screen and (max-width: 1080px) {
     .about {
@@ -157,6 +163,10 @@ footer {
     }
     .project-column {
         gap: 80px;
+    }
+
+    .projects h2 {
+        font-size: 24px;
     }
     
 }
@@ -213,5 +223,9 @@ footer {
         flex: 1; 
         padding: 0px;
 
+    }
+
+    .section-title {
+        width: 50%;
     }
 }
