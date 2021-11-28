@@ -16,6 +16,13 @@ If your README is long, add a table of contents to make it easy for users to fin
 You can view this website at this GitHub Pages URL:
 [https://emdok.github.io/Portfolio-Website/](https://emdok.github.io/Portfolio-Website/) 
 
+## Usage
+
+Screenshot of deployed application:
+
+[Portfolio Website](assets/img/portfolio-page-image.jpg)
+    
+
 ## Credits
 
 Collaborators: Emily Dokken
