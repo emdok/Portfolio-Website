@@ -19,9 +19,9 @@ You can view this website at this GitHub Pages URL:
 ## Usage
 
 Screenshot of deployed application:
-```md
+
 ![Portfolio Website](assets/img/portfolio-page-image.jpg)
-```
+
 
 ## Credits
 
